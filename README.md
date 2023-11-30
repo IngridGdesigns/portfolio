@@ -4,9 +4,13 @@ Hello, this site is under construction :hammer:. In the near future this will be
 
 ## Blog 📝
 
-I will create a blog and include links once that blog exists, it will document my journey using [Next.js](https://nextjs.org/) and [React.js](https://react.dev/).
+I will create a blog and include links once that blog exists, it will document my journey using [Next.js](https://nextjs.org/) (bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).) and [React.js](https://react.dev/).
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+### System Requirements 
+
+- Make sure your node is updated to Node.js 18.17 or later
+- macOS, Windows (including WSL), and Linux are supported.
 
 ## Getting Started
 
