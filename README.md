@@ -4,7 +4,7 @@ Hello, this site is under construction :hammer:. In the near future this will be
 
 ## Blog 📝
 
-I will create a blog and update this readME once that page has created with it's links, it will document my journey using [Next.js](https://nextjs.org/) and [React.js](https://react.dev/).
+I will create a blog and include links once that blog exists, it will document my journey using [Next.js](https://nextjs.org/) and [React.js](https://react.dev/).
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
