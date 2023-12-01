@@ -94,11 +94,14 @@ a {
 }
 
 nav {
+  position: sticky;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #21222A;
-  height: 90px;
   padding: 30px 25px;
-  color: white;
+  height: 60px;
+  top: 0;
 }
 
 ul {
@@ -108,5 +111,20 @@ ul {
 }
 
 li {
-  display: inline;
+  display: block;
+  float: left;
+  margin-left: 2px;
+
+}
+
+li a {
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: turquoise;
 }
