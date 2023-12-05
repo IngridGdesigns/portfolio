@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Link from 'next/link'
 import styles from '../page.module.css'
 
 export default function Navbar() {
@@ -6,9 +7,9 @@ export default function Navbar() {
         <nav>
             <h2>Nav logo stuff</h2>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><Link href="#about">About</Link></li>
+                <li><Link href="#projects">Projects</Link></li>
+                <li><Link href="#contact">Contact</Link></li>
             </ul>
         </nav>
     )
