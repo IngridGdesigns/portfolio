@@ -5,7 +5,7 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-  --foreground-rgb: 0, 0, 0;
+  --foreground-color: #3568FF;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 
@@ -77,9 +77,10 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
+  background: #3568FF;
+  /* background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb)); */
 }
 
 a {
@@ -98,7 +99,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #21222A;
+  background-color: #3568FF;
   padding: 30px 40px;
   height: 60px;
   top: 0;
@@ -116,6 +117,10 @@ li {
   margin-left: 2px;
 
 }
+
+/* section {
+  margin-left: 30px;
+} */
 
 li a {
   color: white;
