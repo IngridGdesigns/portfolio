@@ -13,12 +13,12 @@ export default function Home() {
   return (
     <div className='container'>
       <Navbar />
-        <Greetings />
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-        <Footer />
+      <Greetings />
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
+      <Footer />
 
     <main className={styles.main}>
       <div className={styles.description}>
