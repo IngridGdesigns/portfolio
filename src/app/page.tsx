@@ -11,8 +11,9 @@ import Navbar from './components/Navbar'
 
 export default function Home() {
   return (
-    <div className='container'>
+    <div>
       <Navbar />
+    <div className={styles.main}>
       <Greetings />
       <About />
       <Projects />
@@ -20,7 +21,7 @@ export default function Home() {
       <Contact />
       <Footer />
 
-    <main className={styles.main}>
+    {/* <main className={styles.main}>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
@@ -28,7 +29,8 @@ export default function Home() {
         </p> 
 
       </div>
-      </main>
-    </div>
+      </main> */}
+      </div>
+      </div>
   )
 }

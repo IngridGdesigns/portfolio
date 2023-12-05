@@ -1,3 +1,9 @@
+.contentWrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -126,6 +132,11 @@
     clear: both;
 }
 
+.responsiveImage {
+    max-width: 100%;
+    height: auto;
+}
+
 /* portfolio */
 /* container */
 .responsiveTwoColumns {
@@ -183,9 +194,9 @@
 
 /* Mobile */
 @media (max-width: 700px) {
-    .responsiveTwoColumns>* {
+    /* .responsiveTwoColumns>* {
             width: 100%;
-        }
+        } */
   
     .column {
         width: 100%;
