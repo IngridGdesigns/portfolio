@@ -15,7 +15,7 @@ export default function About() {
                 </p>
             </div>
             <div className={styles.column}>
-                <Image src={`/images/catWallpaper.jpg`} alt="cat wearing sunglasses" width={500} height={400} />
+                <Image className={styles.responsiveImage} src={`/images/catWallpaper.jpg`} alt="cat wearing sunglasses" width={500} height={400} />
             <ul>
                 <li>GitHub link</li>
                 <li>LinkedIn link</li>
