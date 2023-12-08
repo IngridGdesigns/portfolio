@@ -7,16 +7,34 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
+import { Hello } from './components/Hello'
+import { data } from './projectData'
 
+type MyProjects = {
+  id: number;
+  title: string;
+  // description: string;
+  // coverImg: string;
+  // liveSite: string;
+  // repo: string;
+  // labels: string[];
+}
+
+export type ProjectProps = {
+  projects: MyProjects[];
+}
 
 export default function Home() {
+  const projects: MyProjects[] = data; //fetching data;
+
   return (
     <div>
       <Navbar />
-    <div className={styles.main}>
+      <div className={styles.main}>
+        {/* <Hello projects={projects} /> */}
       <Greetings />
       <About />
-      <Projects />
+      <Projects projects={projects}/>
       <Skills />
       <Contact />
       <Footer />
