@@ -279,6 +279,10 @@
         grid-template-columns: repeat(2, 50%);
     }
 
+    .column {
+        width: 50%;
+    }
+
 }
 
 @media (prefers-color-scheme: dark) {
