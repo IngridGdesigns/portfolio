@@ -13,8 +13,9 @@ import { data } from './projectData'
 type MyProjects = {
   id: number;
   title: string;
-  // description: string;
-  // coverImg: string;
+  description: string;
+  coverImg: string;
+  alt: string;
   // liveSite: string;
   // repo: string;
   // labels: string[];
