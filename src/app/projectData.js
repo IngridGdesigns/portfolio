@@ -3,9 +3,9 @@ export const data = [
             id: 1,
             title: "Mariner",
             description: "open source project.",
-            coverImg: "popeye.jpeg",
+            imageUrl: "popeye.jpeg",
             alt: "screenshot of code",
-            liveSite: "some link",
+            sourceUrl: "some link",
             githubLink: "github stuff",
             labels: ['TYPESCRIPT', 'GRAPHQL', 'NODE', 'JEST']
         },
@@ -13,9 +13,9 @@ export const data = [
             id: 2,
             title: "Urban Garden",
             description: "final project built with blood sweat and tears.",
-            coverImg: "garden.jpg",
+            imageUrl: "garden.jpg",
             alt: "UI of page",
-            liveSite: "some link",
+            sourceUrl: "some link",
             githubLink: "github stuff",
             labels: ['EXPRESS', 'NODE', 'REACT', 'JAVASCRIPT', 'POSTGRESQL', 'HTML', 'CSS', 'OPENSOURCE', 'AUTH0', 'JWT']
             
@@ -24,9 +24,9 @@ export const data = [
             id: 3,
             title: "Portfolio website",
             description: "beautiful project.",
-            coverImg: "crowdCounter.png",
+            imageUrl: "crowdCounter.png",
             alt: "welome screen",
-            liveSite: "some link",
+            sourceUrl: "some link",
             githubLink: "github stuff",
             labels: ['REACT', 'NEXTJS', 'JAVASCRIPT', 'HTML', 'CSS']
             
@@ -35,9 +35,9 @@ export const data = [
             id: 4,
             title: "Meme Generator",
             description: "turbular project.",
-            coverImg: "memeGenerator.png",
+            imageUrl: "memeGenerator.png",
             alt: "site UI",
-            liveSite: "some link",
+            sourceUrl: "some link",
             githubLink: "github stuff",
             labels: ['REACT', 'JAVASCRIPT', 'HTML', 'CSS']
         
