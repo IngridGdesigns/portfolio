@@ -12,12 +12,12 @@ import { data } from './projectData'
 
 type MyProjects = {
   id: number;
-  title: string;
   description: string;
-  coverImg: string;
+  title: string;
+  imageUrl: string;
   alt: string;
-  // liveSite: string;
-  // repo: string;
+  // sourceUrl: string;
+  // githubLink: string;
   // labels: string[];
 }
 
