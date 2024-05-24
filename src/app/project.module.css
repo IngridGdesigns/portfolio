@@ -1,0 +1,58 @@
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+
+/* Image */
+/* .imgContainer {
+    width: 100px;
+    height: 100px; */
+
+.i {
+        width: 100%;
+        /* border-radius: 8px; */
+    }
+/* } */
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1000px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}

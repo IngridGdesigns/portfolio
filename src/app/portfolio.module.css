@@ -1,0 +1,44 @@
+css
+/* styles/projects.module.css */
+
+.projectsContainer {
+    padding: 16px;
+}
+
+.projectsContainer h2 {
+    text-align: center;
+}
+
+.projectCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.projectCard {
+    border: 1px solid #ddd;
+    padding: 16px;
+}
+
+.projectCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.projectCard h2 {
+    margin-top: 8px;
+}
+
+.projectLinks {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+/* @media screen and (max-width: 600px) {
+    .portfolio {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+} */
