@@ -1,16 +1,21 @@
 import * as React from 'react'
 import Link from 'next/link'
-import styles from '../page.module.css'
+import styles from '../styles.module.css'
 
 export default function Navbar() {
     return (
-        <nav>
-            <h2>Nav logo stuff</h2>
-            <ul>
-                <li><Link href="#projects">Projects</Link></li>
-                <li><Link href="#about">About</Link></li>
-                <li><Link href="#contact">Contact</Link></li>
-            </ul>
-        </nav>
+       
+            <div className={styles.row}>
+                <nav className={styles.nav} role="navigation">
+                    
+                    <ul className={styles.nav__items}>
+                        <li className={styles.nav__item}><Link className={styles.nav__link} href="#projects">Projects</Link></li>
+                        <li className={styles.nav__item}><Link className={styles.nav__link} href="#about">About</Link></li>
+                        <li className={styles.nav__item}><Link className={styles.nav__link} href="#contact">Contact</Link></li>
+                    </ul>
+                </nav>
+            </div>
+       
+       
     )
 }

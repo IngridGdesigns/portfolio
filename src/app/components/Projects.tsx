@@ -8,9 +8,11 @@ export default function Projects({ projects }: ProjectProps) {
     const mappProjects = projects.map(project => {
         return (
             <div key={project.id} className={styles.projectCards}>
-                <Image className={styles.responsiveImage}  src={`/images/${project.imageUrl}`} alt={project.alt} width={500} height={400} />
-                <h1>{project.title}</h1>
-                <p>{project.description}</p>
+                <div className={styles.projectCard}>
+                    <Image className={styles.responsiveImage}  src={`/images/${project.imageUrl}`} alt={project.alt} width={500} height={400} />
+                    <h1>{project.title}</h1>
+                    <p>{project.description}</p>
+                </div>
             </div>
     
         )
