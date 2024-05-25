@@ -1,5 +1,5 @@
 
-// import styles from './page.module.css'
+import styles from './styles.module.css'
 import Greetings from './components/Greetings'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -29,23 +29,19 @@ export default function Home() {
   const projects: MyProjects[] = data; //fetching data;
 
   return (
-    <html lang="en">
-      <meta charSet="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Ingrid Garcia | Software Engineer and Designer from the Bay Area, CA</title>
-      <meta name="Demonstrating my work and skills in the portfolio site"></meta>
-      <meta name="software engineer" content="Ingrid Garcia,  Skilled in Typescript, Node.js, Jest, and React.js"/>
-    <div>
-      <Navbar />
+   
+    <body>
+       <header className={styles.header} role="banner" id="top">
+          <Navbar />
+          <Hero />
+        </header>
         <div > {/*className={styles.main}*/}
           {/* <Hello projects={projects} /> */}
-      <Hero />
-      <Greetings />
-      <About />
-      <Projects projects={projects}/>
-      <Skills />
-      <Contact />
-      <Footer />
+        <Projects projects={projects}/>
+        <Skills />
+        <About />
+        <Contact />
+        <Footer />
 
     {/* <main className={styles.main}>
       <div className={styles.description}>
@@ -57,7 +53,7 @@ export default function Home() {
       </div>
       </main> */}
       </div>
-      </div>
-      </html>
+      </body>
+       
   )
 }
